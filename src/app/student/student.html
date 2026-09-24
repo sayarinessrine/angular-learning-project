@@ -2,4 +2,6 @@
 <p>Name : {{name}}</p>
 <p>Age : {{age}}</p>
 <img [src]="imageUrl" alt="Student">
-
+<button (click)="changeName()">Change Name</button>
+<input [(ngModel)]="name" placeholder="entrer your name">
+<p>your name is {{name}}</p>
