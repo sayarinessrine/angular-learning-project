@@ -9,5 +9,6 @@ import { Component } from '@angular/core';
 export class Student {
   name='nessrine';
   age=24;
+  imageUrl = 'https://picsum.photos/150';
 }
 
