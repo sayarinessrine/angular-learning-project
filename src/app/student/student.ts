@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component ,input} from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 @Component({
@@ -8,7 +8,7 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './student.css',
 })
 export class Student {
-  name='nessrine';
+ name='nessrine';
   age=24;
   imageUrl = 'https://picsum.photos/150';
   changeName(){
