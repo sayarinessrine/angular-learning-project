@@ -2,11 +2,14 @@
   <div class="icon">👥</div>
   <div>
     <h2>Liste des amis</h2>
+
     <input type="text" placeholder="Rechercher un ami..." />
+
     <ul>
-      <li>Sami</li>
-      <li>Youssef</li>
-      <li>Amine</li>
+      @for (friend of friends; track friend) {
+        <li>{{ friend }}</li>
+      }
     </ul>
+
   </div>
 </section>

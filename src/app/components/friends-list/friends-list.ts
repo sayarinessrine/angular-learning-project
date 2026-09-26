@@ -8,5 +8,5 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './friends-list.css',
 })
 export class FriendsList {
-  name: string = 'ahmed';
+  friends = ['Sami', 'Youssef', 'Amine'];
 }
